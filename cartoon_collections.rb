@@ -28,7 +28,7 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   
   planeteer_calls.find do |matching|
-    matching == valid_calls
+    matching == "Earth!", "Wind!", "Fire!", "Water!", "Heart!"
     
     end
 end
