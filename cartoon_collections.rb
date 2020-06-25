@@ -29,7 +29,7 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.find do |matching|
     count =0 
-    matching === valid_calls[count]
+    matching == valid_calls[count]
     count += 1 
     
     end
