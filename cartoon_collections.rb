@@ -31,5 +31,7 @@ def find_valid_calls(planeteer_calls)
     matching == valid_calls[0]
     matching == valid_calls[1]
     matching == valid_calls[2]
+    matching == valid_calls[3]
+    matching == valid_calls[4]
     end
 end
