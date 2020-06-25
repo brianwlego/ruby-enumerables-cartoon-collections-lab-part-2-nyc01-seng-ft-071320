@@ -28,9 +28,6 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   
   planeteer_calls.find do |matching|
-    count =0 
-    matching == valid_calls[count]
-    count += 1 
-    
+    matcing[valid_calls]
     end
 end
